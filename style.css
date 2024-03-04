@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kalam:wght@300;400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color:black;
+    position: sticky;
+    top: 0;
+    justify-content: space-evenly;
+    height: 90px;
+    padding: 10px 0px 10px 0px;
+}
+
+
+    
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 10px 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 30px;
+    background-color: #1e90ff;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    transform: scale(1.1);}
+
+
+img{border-radius: 50px;
+height:300px;
+}
+
+.imagem{flex: 0 0 200px; 
+    margin-right: 0px;
+    height: 110px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.container{display: flex;
+    justify-content: center;
+}
+  
+.container img{margin-right: 80px;
+}    
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{background-color:black;
+    
+    position: relative;
+    font-family:"Barlow Condensed", sans-serif;
+    font-size: large;
+    text-align: center;
+    margin: 0 50px 0px 50px;
+    padding:
+    }
+
+p{color: white;
+    margin: 0 30%;
+    line-height: 1.5;
+    text-orientation: sideways;
+}
+
+
+h1,h2{font-family: "Red Hat Display", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: x-large;
+    
+}
+
+::-webkit-scrollbar{width: 10px;
+    background-color:black
+}
+
+::-webkit-scrollbar-thumb{background-color: #1e90ff;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;}
+
+
+    
+.item {
+        flex: 1;
+        background-color: lightblue;
+        padding: 20px;
+        margin: 10px;  }  
+
+
+section {
+    padding: 100px 20px 100px 20px;
+    margin: 50px 50px 50px 50px;
+    padding-bottom: 20px;
+    display: block;
+    justify-content: center;
+    
+    }
+
+.link{color: #1ddb82;}    
+    
