@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-.header{
+header{
     background-color:black;
     position: sticky;
     top: 0;
@@ -65,17 +65,17 @@ html{
     scroll-behavior: smooth;
 }
 
-body{background-color:black;
+body{background-color:white;
     
     position: relative;
     font-family:"Barlow Condensed", sans-serif;
     font-size: large;
     text-align: center;
-    margin: 0 50px 0px 50px;
+    
     
     }
 
-p{color: white;
+p{color:black;
     margin: 0 30%;
     line-height: 1.5;
     text-orientation: sideways;
@@ -109,14 +109,51 @@ h1,h2{font-family: "Red Hat Display", sans-serif;
         margin: 10px;  }  
 
 
-section {
-    padding: 100px 20px 100px 20px;
-    margin: 50px 50px 50px 50px;
-    padding-bottom: 20px;
-    display: block;
-    justify-content: center;
+section{
+    display:flex;
+    justify-content:space-evenly;
     
-    }
+}
+
+#contatos{ background-color: gray;
+    margin:50px 50px 50px 50px;
+    padding: 50px;
+    text-align: center;
+}
+
+#curiosidades{background-color: gray;
+    margin:50px 50px 50px 50px ;
+    padding: 50px 50px 50px 50px;
+}
+
+#sobre-mim{
+    background-color: gray;
+    margin:50px 50px 50px 50px ;
+    padding: 50px 30px 50px 30px;
+}
+
+#objetivo-profissional{background-color: gray;
+    margin:50px 50px 50px 50px ;
+    padding: 50px 30px 50px 30px;
+
+
+}
+
+article p{
+
+}
+
+#hardskills{
+    background-color: #1ddb82;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+    
+
+    
+    
 
 .link{color: #1ddb82;}    
     
