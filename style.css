@@ -74,7 +74,7 @@ html{
     scroll-behavior: smooth;
 }
 
-body{background-color:white;
+body{background-color:black;
     
     position: relative;
     font-family:"Barlow Condensed", sans-serif;
@@ -84,7 +84,7 @@ body{background-color:white;
     
     }
 
-p{color:black;
+p{color:white;
     margin: 0 30%;
     line-height: 1.5;
     text-orientation: sideways;
@@ -128,12 +128,12 @@ section{
 
 
 section#formacao{
-    background-color: gray;
+    
     margin:10rem;
     padding:10rem;
 }
 
-section#contatos{ background-color: gray;
+section#contatos{ 
     margin:50px 50px 50px 50px;
     padding: 50px;
     text-align: center;
@@ -143,38 +143,38 @@ section#contatos ul{
     list-style: none;
 }    
 
-section#curiosidades{background-color: gray;
+section#curiosidades{
     margin:10rem;
     padding:10rem;
    
 }
 
 section#sobre-mim{
-    background-color: gray;
-    margin:10rem;
-    padding:10rem;
+    margin: 8rem;
+    padding:6rem;
 }
 
-section#objetivo-profissional{background-color: gray;
-    margin:10rem;
-    padding:10rem;
+section#objetivo-profissional{
+    margin:8rem;
+    padding:6rem;
 }
 
 
-section#cursos{margin:10rem;
-    padding:10rem;
-    background-color: gray;
+section#cursos{margin:8rem;
+    padding:6rem;
+    
 
 }
-section#cursos ul{
+section#cursos ul li{
     list-style: none;
+    color: white;
 }
 
 
 section#inicio{
     margin:4rem;
     padding:4rem;
-    background-color: gray;
+    
 }
 
 section#inicio h1{
@@ -189,7 +189,16 @@ section#inicio h1{
     color: black;
 }
 
-    
+article h1{
+    color: #1ddb82;
+}
+article h2{
+    color: #1ddb82;
+}
+article{
+    margin: 5rem;
+    padding: 5rem;
+}
 
     
     
