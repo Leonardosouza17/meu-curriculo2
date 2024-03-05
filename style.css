@@ -56,6 +56,15 @@ height:300px;
     border-radius: 50px;
     }
 
+#img{
+    display:inline-block;
+    vertical-align:top;
+ }  
+
+#texto{
+    display:inline-block;
+} 
+
 .container{display: flex;
     justify-content: center;
     
@@ -90,7 +99,7 @@ h1,h2{font-family: "Red Hat Display", sans-serif;
 }
 
 ::-webkit-scrollbar{width: 10px;
-    background-color:black
+    background-color:black;
 }
 
 ::-webkit-scrollbar-thumb{background-color: #1e90ff;
@@ -106,42 +115,72 @@ h1,h2{font-family: "Red Hat Display", sans-serif;
         flex: 1;
         background-color: lightblue;
         padding: 20px;
-        margin: 10px;  }  
+        margin: 10px;  
+    }  
 
 
 section{
-    display:flex;
-    justify-content:space-evenly;
+    display:inline-block;
+    vertical-align: top;
     
+
 }
 
-#contatos{ background-color: gray;
+
+section#formacao{
+    background-color: gray;
+    margin:10rem;
+    padding:10rem;
+}
+
+section#contatos{ background-color: gray;
     margin:50px 50px 50px 50px;
     padding: 50px;
     text-align: center;
+    }
+
+section#contatos ul{
+    list-style: none;
+}    
+
+section#curiosidades{background-color: gray;
+    margin:10rem;
+    padding:10rem;
+   
 }
 
-#curiosidades{background-color: gray;
-    margin:50px 50px 50px 50px ;
-    padding: 50px 50px 50px 50px;
-}
-
-#sobre-mim{
+section#sobre-mim{
     background-color: gray;
-    margin:50px 50px 50px 50px ;
-    padding: 50px 30px 50px 30px;
+    margin:10rem;
+    padding:10rem;
 }
 
-#objetivo-profissional{background-color: gray;
-    margin:50px 50px 50px 50px ;
-    padding: 50px 30px 50px 30px;
-
-
+section#objetivo-profissional{background-color: gray;
+    margin:10rem;
+    padding:10rem;
 }
 
-article p{
+
+section#cursos{margin:10rem;
+    padding:10rem;
+    background-color: gray;
 
 }
+section#cursos ul{
+    list-style: none;
+}
+
+
+section#inicio{
+    margin:4rem;
+    padding:4rem;
+    background-color: gray;
+}
+
+section#inicio h1{
+    text-align: center;
+}
+
 
 #hardskills{
     background-color: #1ddb82;
