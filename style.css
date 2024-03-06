@@ -66,12 +66,16 @@ height:300px;
     display:inline-block;
 } 
 
-.container{display: flex;
-    justify-content: center;
+.container{
+    
+        width: 80%; 
+        margin: 0 auto; 
+        padding: 20px; 
+        
     
 }
   
-html{
+body, html{
     scroll-behavior: smooth;
 }
 
@@ -86,7 +90,7 @@ body{background-color:black;
     }
 
 p{color:white;
-    margin: 0 30%;
+    margin: 0 5%;
     line-height: 1.5;
     text-orientation: sideways;
 }
@@ -123,6 +127,8 @@ h1,h2{font-family: "Red Hat Display", sans-serif;
 section{
     display:inline-block;
     vertical-align: top;
+    background-color: black;
+    
     
 
 }
@@ -130,12 +136,12 @@ section{
 
 section#formacao{
     
-    margin:10rem;
-    padding:10rem;
+   margin:40px 40px;
+    padding:8rem;
 }
 
 section#contatos{ 
-    margin:50px 50px 50px 50px;
+    margin:40px 40px;
     padding: 50px;
     text-align: center;
     }
@@ -145,23 +151,24 @@ section#contatos ul{
 }    
 
 section#curiosidades{
-    margin:10rem;
-    padding:10rem;
+    margin:40px 40px;
+    padding: 5rem;
    
 }
 
 section#sobre-mim{
-    margin: 8rem;
-    padding:6rem;
+   margin: 40px 40px;
+    padding: 3rem;
 }
 
 section#objetivo-profissional{
-    margin:8rem;
+    margin: 40px 40px;
     padding:6rem;
 }
 
 
-section#cursos{margin:8rem;
+section#cursos{
+    margin:40px 40px;
     padding:6rem;
     
 
@@ -173,18 +180,29 @@ section#cursos ul li{
 
 
 section#inicio{
-    margin:4rem;
-    padding:4rem;
+    margin:0px 20px 40px 20px;
+    padding:5rem;
+    transition: transform 0.3s ease;
+
     
 }
+
+#inicio:hover{transform: scale(1.1)}
+
 
 section#inicio h1{
     text-align: center;
 }
 
-#inicio, #formacao, #sobre-mim, #objetivo-profissional, #contatos, #curiosidades{
-    padding: 40px;
+#inicio img{
+    
 }
+
+#inicio, #formacao, #sobre-mim, #objetivo-profissional, #contatos, #curiosidades{
+
+}
+
+
 #hardskills{
     background-color: #1ddb82;
     border-radius: 10px;
@@ -202,21 +220,42 @@ article h2{
     font-size: large;
     color: #1ddb82;
 }
-article{
+
     
-    margin: 5rem;
-    padding: 5rem;
+article{
+    padding: 5px;
+      margin: 5px;
+    
+     border-radius: 20px;
+     overflow: hidden;
+     justify-content:space-evenly;
+}
+article h1{font-size: 18px;
+margin-top: 0;
+}
+
+article p{
+    font-size: 14px;
+}
+    
+   
+.article-container{
+    display: flex;
+
 }
 
 #card{
     width: 300px;
-    border: 1px solid #ccc;
     border-radius: 5px;
     padding: 20px;
     margin: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-style: none;
-    }
+    justify-content:space-evenly;
+    transition: transform 0.3s ease;
+}
+#card:hover {
+    transform: scale(1.1)}
 
 
 #card img{
@@ -224,8 +263,8 @@ article{
 }
 
 
-main{
-    justify-content: center;
+#main{
+    justify-content:space-evenly;
     display: flex;
 }
 
