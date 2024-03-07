@@ -79,20 +79,20 @@ body, html{
     scroll-behavior: smooth;
 }
 
-body{background-color:black;
-    
+body{background-color:var(--plano-fundo);
     position: relative;
     font-family:"Barlow Condensed", sans-serif;
     font-size: large;
     text-align: center;
+    background-color:var(--plano-fundo) ;
     
-    
-    }
+}
 
 p{color:white;
     margin: 0 5%;
     line-height: 1.5;
     text-orientation: sideways;
+    color: var(--cor-paragrafo);
 }
 
 
@@ -198,7 +198,9 @@ section#inicio h1{
     
 }
 
-#inicio, #formacao, #sobre-mim, #objetivo-profissional, #contatos, #curiosidades{
+#inicio, #formacao, #sobre-mim, #objetivo-profissional, #contatos, #curiosidades,#cursos{
+  padding:var(--padding-padrao-secao);
+  background-color: var(--cor-fundo-tags);
 
 }
 
@@ -225,10 +227,11 @@ article h2{
 article{
     padding: 5px;
       margin: 5px;
-    
+    width: 30%;
      border-radius: 20px;
      overflow: hidden;
      justify-content:space-evenly;
+     background-color: var(--cor-fundo-tags)
 }
 article h1{font-size: 18px;
 margin-top: 0;
@@ -236,8 +239,18 @@ margin-top: 0;
 
 article p{
     font-size: 14px;
+    text-align: justify;
+    margin-bottom: 1rem;
+    height: 160px;
+    overflow: hidden;
 }
     
+#artigo{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    
+}
    
 .article-container{
     display: flex;
@@ -249,11 +262,13 @@ article p{
     border-radius: 5px;
     padding: 20px;
     margin: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(229,230,235);
     border-style: none;
     justify-content:space-evenly;
     transition: transform 0.3s ease;
+    background-color: var(--cor-fundo-tags);
 }
+
 #card:hover {
     transform: scale(1.1)}
 
@@ -266,7 +281,10 @@ article p{
 #main{
     justify-content:space-evenly;
     display: flex;
+    background-color: var(--cor-fundo-tags);
+
 }
+
 
 .lista-tags li{
     display: inline-block;
@@ -275,6 +293,7 @@ article p{
     background-color:gray;
     padding: 5px;
     margin: 5px 0;
+    color: var(---cor-primaria-texto);
 
 }
 article p{
@@ -282,12 +301,58 @@ article p{
     margin-bottom: 1rem;
     height: 150px;
     overflow: hidden;
+    color: var(--cor-paragrafo);
 }
 
-.continue-lendo{
+#continue-lendo{
+    padding: .5rem 1rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    color:aliceblue;
+    background-color:#1ddb82;
     
 
 }
 
 .link{color: #1ddb82;}    
+
+:root{
+    ---cor-primaria-texto: #1ddb82;
+    --cor-fundo-tags: #bebebe;
+    --padding-padrao-secao: 40px;
+    --planofundo: #ffffff;
+}
+
+[data-tema="dark"] {
+    --plano-fundo: black;
+    ---cor-primaria-texto:black;
+    --cor-fundo-tags:black;
+    --cor-paragrafo:white;
+    --cor-titulo:
+
+}
+
+[data-tema="light"] {
+    --plano-fundo:  #ffffff;
+    ---cor-primaria-texto: #e5e6eb;
+    --cor-fundo-tags: #d2d4dc;
+    --cor-paragrafo:black;
+}
+
+button{color: white;
+    text-decoration: none;
+    padding: 8px 30px;
+    background-color: #1e90ff;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+    position: flex;
+
+}
+button:hover{ transform: scale(1.1);}
+
+
     

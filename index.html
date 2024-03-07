@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-tema="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,6 +31,8 @@
                 <li>
                     <a href="#cursos">cursos</a>
                 </li>
+                
+                
             </ul>
 
         </nav>
@@ -107,13 +109,13 @@
             <div id="texto">
         <h2 style="color: #ffd15c;">cursos extracurriculares</h2>
         <ul>
-            <li>Curso Básico em Administração- Microllins </li>
-         <li>Curso de Inglês Intermediário- Wizard </li>
-        <li>Conhecimento em: Word, Excel, Powerpoint, Digitação, e Internet.</li>
-         <li>Curso Senai: Técnicas De Montagem E Ajustagem De Motores À Combustão Interna.</li>
-        <li>Curso Senai: Competência Transversal- Noções Básicas De Mecânica Automotiva</li>
-        <li>Curso Senai: Caracteríscticas Técnicas De Motores À Combustão Interna.</li>
-        <li>Curso Senai: Veículos Elétricos E Híbridos</li>
+            <li><p>Curso Básico em Administração- Microllins</p> </li>
+         <li><p> Curso de Inglês Intermediário- Wizard </p></li>
+        <li> <p>Conhecimento em: Word, Excel, Powerpoint, Digitação, e Internet.</p></li>
+         <li> <p> Curso Senai: Técnicas De Montagem E Ajustagem De Motores À Combustão Interna.</p></li>
+        <li> <p> Curso Senai: Competência Transversal- Noções Básicas De Mecânica Automotiva <p></p></li>
+        <li> <p>   Curso Senai: Caracteríscticas Técnicas De Motores À Combustão Interna.</p></li>
+        <li>  <p> Curso Senai: Veículos Elétricos E Híbridos</p>   </li>
     </ul>
          </div>
     </section>
@@ -185,7 +187,7 @@
     
     
     
-
+       <main id="artigo"> 
         <div class="article-container">
 
         <article>
@@ -196,7 +198,7 @@
       <h1>  Aprendendo</h1>
       <h2> criando uma página com html semântico</h2>
       <p>eu estou Aprendendo sobre html,css,java script. Programação é o processo de criação de um conjunto de instruções que dizem ao computador como realizar uma tarefa. Programação pode ser feita usando uma variedade de "idiomas" do computador, tais como SQL, Java, Python e C++.
-      <span class="continue-lendo"> <a id="hardskills" href="#hardskills"> continue-lendo</a></span></p>
+      <span> <a id="continue-lendo" href="#continue-lendo"> continue-lendo</a></span></p>
      
 
         </div>
@@ -219,6 +221,7 @@
             <p>HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML. HyTime é um padrão para a representação estruturada de hipermídia e conteúdo baseado em tempo. Um documento é visto como um conjunto de eventos concorrentes dependentes de tempo, conectados por hiperligações. O padrão é independente de outros padrões de processamento de texto em geral.</p>
         </div>
     </article>
+       </main>
    
     
     
@@ -248,11 +251,13 @@
     </section>
    </main>
 
-    <footer>
-        <p>&copy; 2024 Meu currículo </p>
+    
+      
 
-    </footer>
+    
+    <button type="button" id="btTrocaTema"> trocar tema</button>
     
     
+    <script src="tema.js"></script>
 </body>
 </html>
