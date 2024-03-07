@@ -35,15 +35,21 @@ nav ul {
     color: white;
     text-decoration: none;
     padding: 8px 30px;
-    background-color: #1e90ff;
+    background-color:var(--cor-fundo-ancora ) ;
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
     border: none;
     border-radius: 50px;
     transition: transform 0.3s ease;
+    background-color: var(--cor-fundo-ancora#00d27f);
   }
   
+nav ul li a{
+    background-color: var(--cor-ancora#00d27f);
+}
+
+
   nav ul li a:hover {
     transform: scale(1.1);}
 
@@ -104,10 +110,13 @@ h1,h2{font-family: "Red Hat Display", sans-serif;
 }
 
 ::-webkit-scrollbar{width: 10px;
-    background-color:black;
+    background-color:var(--cor-fundo-bdp);
+    background-color: var(--cor-fundo-bdp#d3ffce);
+
 }
 
-::-webkit-scrollbar-thumb{background-color: #1e90ff;
+::-webkit-scrollbar-thumb{background-color:var(--cor-barra-da-pagina);
+    background-color: var(--cor-barra-da-pagina#00d27f);
     border-radius: 6px;
 }
 
@@ -128,6 +137,8 @@ section{
     display:inline-block;
     vertical-align: top;
     background-color: black;
+    margin: 0% auto;
+    padding:20px
     
     
 
@@ -136,12 +147,12 @@ section{
 
 section#formacao{
     
-   margin:40px 40px;
+   margin:0px 0px;
     padding:8rem;
 }
 
 section#contatos{ 
-    margin:40px 40px;
+    margin:0px 0px;
     padding: 50px;
     text-align: center;
     }
@@ -151,24 +162,24 @@ section#contatos ul{
 }    
 
 section#curiosidades{
-    margin:40px 40px;
+    margin:0px 0px;
     padding: 5rem;
    
 }
 
 section#sobre-mim{
-   margin: 40px 40px;
+   margin: 0px 0px;
     padding: 3rem;
 }
 
 section#objetivo-profissional{
-    margin: 40px 40px;
+    margin: 0px 0px;
     padding:6rem;
 }
 
 
 section#cursos{
-    margin:40px 40px;
+    margin:0px 0px;
     padding:6rem;
     
 
@@ -180,7 +191,7 @@ section#cursos ul li{
 
 
 section#inicio{
-    margin:0px 20px 40px 20px;
+    margin:40px 20px 40px 20px;
     padding:5rem;
     transition: transform 0.3s ease;
 
@@ -201,6 +212,7 @@ section#inicio h1{
 #inicio, #formacao, #sobre-mim, #objetivo-profissional, #contatos, #curiosidades,#cursos{
   padding:var(--padding-padrao-secao);
   background-color: var(--cor-fundo-tags);
+  box-shadow:
 
 }
 
@@ -229,9 +241,8 @@ article{
       margin: 5px;
     width: 30%;
      border-radius: 20px;
-     overflow: hidden;
-     justify-content:space-evenly;
-     background-color: var(--cor-fundo-tags)
+    background-color: var(--cor-fundo-tags);
+    justify-content: space-evenly;
 }
 article h1{font-size: 18px;
 margin-top: 0;
@@ -239,21 +250,20 @@ margin-top: 0;
 
 article p{
     font-size: 14px;
-    text-align: justify;
+   
     margin-bottom: 1rem;
     height: 160px;
-    overflow: hidden;
+    
 }
     
 #artigo{
     display: flex;
-    justify-content: space-between;
     width: 30%;
     
 }
    
 .article-container{
-    display: flex;
+    
 
 }
 
@@ -266,7 +276,8 @@ article p{
     border-style: none;
     justify-content:space-evenly;
     transition: transform 0.3s ease;
-    background-color: var(--cor-fundo-tags);
+    background-color: var(--plano-fundo);
+    background-color: var(--plano-fundo);
 }
 
 #card:hover {
@@ -318,9 +329,9 @@ article p{
 
 :root{
     ---cor-primaria-texto: #1ddb82;
-    --cor-fundo-tags: #bebebe;
+    --cor-fundo-tags:#d3ffce;
     --padding-padrao-secao: 40px;
-    --planofundo: #ffffff;
+    --planofundo:#dcedc1;
 }
 
 [data-tema="dark"] {
@@ -328,21 +339,28 @@ article p{
     ---cor-primaria-texto:black;
     --cor-fundo-tags:black;
     --cor-paragrafo:white;
-    --cor-titulo:
+    --cor-titulo-h1:#1e90ff;
+    --cor-fundo-ancora: #1e90ff;
+    --cor-barra-da-pagina:#1e90ff;
+    --cor-fundo-bdp:black;
 
 }
 
 [data-tema="light"] {
-    --plano-fundo:  #ffffff;
+    --plano-fundo: 	#dcedc1;
     ---cor-primaria-texto: #e5e6eb;
-    --cor-fundo-tags: #d2d4dc;
+    --cor-fundo-tags:#d3ffce;
     --cor-paragrafo:black;
+    --cor-titulo:#559e83;
+    --cor-fundo-ancora:#00d27f;
+    --cor-barra-da-pagina:#00d27f;
+    --cor-fundo-bdp:#d3ffce;
 }
 
 button{color: white;
-    text-decoration: none;
     padding: 8px 30px;
-    background-color: #1e90ff;
+    background-color:var(--cor-fundo-ancora);
+    background-color: var(--cor-fundo-ancora#00d27f);
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
@@ -350,6 +368,8 @@ button{color: white;
     border-radius: 50px;
     transition: transform 0.3s ease;
     position: flex;
+    justify-content: left;
+
 
 }
 button:hover{ transform: scale(1.1);}
