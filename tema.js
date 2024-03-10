@@ -24,6 +24,9 @@ function trocaTema() {
         document.documentElement.setAttribute('data-tema', 'light');
     }
 });
+
+
+  
 // trocar o tema:
 // 1. pegar o elemento com o tema
 // 2. apagar o atributo do tema atual
