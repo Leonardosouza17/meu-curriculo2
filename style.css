@@ -274,6 +274,7 @@ article p{
 
 }
 
+
 #card{
     width: 300px;
     border-radius: 5px;
@@ -290,6 +291,8 @@ article p{
 #card:hover {
     transform: scale(1.1);
     background-color: #c0c0c0;
+    color:var(--cor-paragrafo-card);
+    color:var(--cor-paragrafo-card);
 
 }
 
@@ -305,6 +308,13 @@ article p{
     display: flex;
     background-color: var(--cor-fundo-tags);
 
+
+
+}
+
+#main p{
+    color:var( --cor-paragrafo-card);
+    color:var(--cor-paragrafo-card)
 }
 
 
@@ -355,6 +365,7 @@ article p{
     --cor-barra-da-pagina:#1e90ff;
     --cor-fundo-bdp:black;
     --header-cor-fundo:rgba(0, 0, 0,0.5);
+    --cor-paragrafo-card: white;
 
 }
 
@@ -368,6 +379,7 @@ article p{
     --cor-barra-da-pagina:#00d27f;
     --cor-fundo-bdp:#d3ffce;
     --header-cor-fundo:rgba(255, 255, 255, 0.5);
+    --cor-paragrafo-card: rgba(0,0,0,0.5);
 }
 
 button{color: white;
