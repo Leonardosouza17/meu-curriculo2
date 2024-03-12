@@ -366,6 +366,7 @@ article p{
     --cor-fundo-bdp:black;
     --header-cor-fundo:rgba(0, 0, 0,0.5);
     --cor-paragrafo-card: white;
+    
 
 }
 
@@ -380,19 +381,20 @@ article p{
     --cor-fundo-bdp:#d3ffce;
     --header-cor-fundo:rgba(255, 255, 255, 0.5);
     --cor-paragrafo-card: rgba(0,0,0,0.5);
+    
+   
 }
 
 button{color: white;
     padding: 20px 20px;
     background-color:var(--cor-fundo-ancora);
     background-color: var(--cor-fundo-ancora#1ddb82);
-    display: flex;
     text-decoration: none;
     border: none;
     border-radius: 50px;
     transition: transform 0.3s ease;
     justify-content: left;
-   background-image: url(moon_5070532.png), url(sun_2757115.png);
+   background-image: url(), url();
    background-size: 20px 20px, 20px 20px; /* Tamanho dos ícones */
    background-repeat: no-repeat, no-repeat; /* Evita que os ícones sejam repetidos */
    background-position: 10px center, calc(100% - 30px) center; /* Posicionamento dos ícones (horizontalmente) */
@@ -406,6 +408,11 @@ button{color: white;
 
 
 button:hover{ transform: scale(1.1);}
+
+button img{
+    height: 20px;
+    justify-content: center;
+}
 
 
     
