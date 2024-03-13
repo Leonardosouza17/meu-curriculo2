@@ -371,15 +371,15 @@ article p{
 }
 
 [data-tema="light"] {
-    --plano-fundo: 	#dcedc1;
+    --plano-fundo: #d3ffce;
     ---cor-primaria-texto: #e5e6eb;
-    --cor-fundo-tags:#d3ffc;
+    --cor-fundo-tags: #d3ffc;
     --cor-paragrafo:black;
     --cor-titulo:#559e83;
     --cor-fundo-ancora:#1ddb82;
     --cor-barra-da-pagina:#00d27f;
     --cor-fundo-bdp:#d3ffce;
-    --header-cor-fundo:rgba(255, 255, 255, 0.5);
+    --header-cor-fundo:rgba(238,238,238, 0);
     --cor-paragrafo-card: rgba(0,0,0,0.5);
     
    
