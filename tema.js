@@ -26,6 +26,8 @@ function trocaTema() {
 });
 
 
+
+
   
 // trocar o tema:
 // 1. pegar o elemento com o tema

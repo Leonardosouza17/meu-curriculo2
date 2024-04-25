@@ -283,7 +283,7 @@ article p {
 .article-container {}
 
 
-#card {
+ #card {
     width: 300px;
     border-radius: 5px;
     padding: 20px;
@@ -292,15 +292,15 @@ article p {
     justify-content: space-evenly;
     transition: transform 0.3s ease;
     background-color: var(--plano-fundo);
-    /* background-color: var(--plano-fundo); */
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+     background-color: var(--plano-fundo); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 #card:hover {
     transform: scale(1.1);
     background-color: #c0c0c0;
     color: var(--cor-paragrafo-card);
-    color: var(--cor-paragrafo-card);
+    color: var(--cor-paragrafo-card); 
 
 }
 
@@ -314,7 +314,7 @@ article p {
 #main {
     justify-content: space-evenly;
     display: flex;
-    /* background-color: var(--cor-fundo-tags); */
+    background-color: var(--cor-fundo-tags);
 
 
 
