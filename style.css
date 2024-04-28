@@ -53,14 +53,21 @@ nav ul li a:hover {
 
 img {
     border-radius: 50px;
-    height: 300px;
+    /* height: 300px; */
      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
 }
 
 .imagem {
     flex: 0 0 200px;
-    height: 110px;
+    height: 100px;
     border-radius: 50px;
+}
+
+#icons {
+    height: 30px;
+    border-radius: 10px;
+    margin-right: 1em;
+    box-shadow: none;
 }
 
 #img {
@@ -280,25 +287,25 @@ article p {
 
 }
 
-.article-container {}
+
 
 
  #card {
     width: 300px;
     border-radius: 5px;
-    padding: 20px;
-    margin: 20px;
+     padding: 20px;
+    margin: 20px; 
     border-style: none;
     justify-content: space-evenly;
     transition: transform 0.3s ease;
     background-color: var(--plano-fundo);
      background-color: var(--plano-fundo); 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
 }
 
 #card:hover {
     transform: scale(1.1);
-    background-color: #c0c0c0;
+    /* background-color: #c0c0c0; */
     color: var(--cor-paragrafo-card);
     color: var(--cor-paragrafo-card); 
 
