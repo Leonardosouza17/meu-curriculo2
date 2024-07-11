@@ -71,14 +71,19 @@ img {
 }
 
 #img {
-    display: inline;
-    vertical-align: top;
-    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
 }
 
 #texto {
-    display: grid;
-    margin: auto
+    display: inline;
+    color: var(--cor-title);
+    
+
+
+   
 }
 
 .container {
@@ -155,9 +160,8 @@ h2 {
 section {
     display: inline-block;
     vertical-align: top;
-    background-color: black;
     margin: 0% auto;
-    padding: px
+    
 }
 
 
@@ -232,7 +236,6 @@ section#inicio h1 {
 #curiosidades,
 #cursos {
     padding: var(--padding-padrao-secao);
-    background-color: var(--cor-fundo-tags);
     box-shadow: black;
     border-radius: 10px;
 
@@ -298,16 +301,13 @@ article p {
     border-style: none;
     justify-content: space-evenly;
     transition: transform 0.3s ease;
-    background-color: var(--plano-fundo);
-     background-color: var(--plano-fundo); 
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
+    background-color: var(--plano-fundo); 
 }
 
 #card:hover {
     transform: scale(1.1);
     /* background-color: #c0c0c0; */
-    color: var(--cor-paragrafo-card);
-    color: var(--cor-paragrafo-card); 
+    
 
 }
 
@@ -337,10 +337,9 @@ article p {
     display: inline-block;
     list-style: none;
     border-radius: 4px;
-    background-color: gray;
     padding: 5px;
     margin: 5px 0;
-    color: var(---cor-primaria-texto);
+    color: var(--cor-curiosidades);
 
 }
 
@@ -374,31 +373,35 @@ article p {
 }
 
 [data-tema="dark"] {
-    --plano-fundo: black;
+    --plano-fundo: #396878;
     ---cor-primaria-texto: black;
     --cor-fundo-tags: black;
     --cor-paragrafo: white;
     --cor-titulo-h1: #1e90ff;
     --cor-fundo-ancora: #1e90ff;
     --cor-barra-da-pagina: #1e90ff;
-    --cor-fundo-bdp: black;
+    --cor-fundo-bdp:#396878 ;
     --header-cor-fundo: rgba(0, 0, 0, 0.5);
     --cor-paragrafo-card: white;
+    --cor-curiosidades:white;
+    --cor-tile:#abd5d7;
 
 
 }
 
 [data-tema="light"] {
-    --plano-fundo: #d3ffce;
+    --plano-fundo: #bee7da;
     ---cor-primaria-texto: #e5e6eb;
     --cor-fundo-tags: #d3ffc;
     --cor-paragrafo: black;
     --cor-titulo: #559e83;
     --cor-fundo-ancora: #1ddb82;
     --cor-barra-da-pagina: #00d27f;
-    --cor-fundo-bdp: #d3ffce;
+    --cor-fundo-bdp: #bee7da;
     --header-cor-fundo: rgba(238, 238, 238, 0);
     --cor-paragrafo-card: rgba(0, 0, 0, 0.5);
+    --cor-curiosidades:rgba(0, 0, 0, 0.5);
+    --cor-title:#45818e;
 
 
 }
@@ -413,16 +416,11 @@ button {
     border-radius: 50px;
     transition: transform 0.3s ease;
     justify-content: left;
-    /* background-image: url(), url(); */
-    /*background-size: 20px 20px, 20px 20px;  Tamanho dos ícones
-   background-repeat: no-repeat, no-repeat; /* Evita que os ícones sejam repetidos
-   background-position: 10px center, calc(100% - 30px) center; Posicionamento dos ícones (horizontalmente)  */
-    /* padding-left: 40px; */
     cursor: pointer;
     display: flex;
     position: fixed;
     bottom: 2rem;
-    left: 2.5rem;
+    right: 2.5rem;
 }
 
 
